@@ -32,10 +32,10 @@ function App() {
 
         </div>
         <div className="container" id="adjust">
-          < Contactform/>
+          <Contactform/>
         </div>
         <div>
-          < Footer/>
+          <Footer/>
         </div>
       </body>
     </>
