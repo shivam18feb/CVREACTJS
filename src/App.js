@@ -31,7 +31,9 @@ function App() {
           <Project />
 
         </div>
+        
         <div className="container" id="adjust">
+          <h1>Contact us for Hireing me ..</h1>
           <Contactform/>
         </div>
         <div>

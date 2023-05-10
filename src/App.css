@@ -137,9 +137,7 @@ body {
 }
 .projectbox {
   display: flex;
-  margin-top: 5%;
-  align-items: center;
-  padding-top: 2%;
+  align-items: center; 
 }
 .card-group {
   margin-left: 10%;
@@ -175,6 +173,11 @@ body {
   width: 1000px;
   color: aliceblue;
   font-size: medium;
+  
+}
+h1{
+  text-align: center;
+  padding-bottom: 5%;
 }
 .App {
   padding: 5%;
