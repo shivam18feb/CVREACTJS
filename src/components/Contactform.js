@@ -1,3 +1,8 @@
+/**
+ * The function returns a contact form component in React.
+ * @returns A functional component named Contactform that returns a form with an email input field, a
+ * message textarea field, and two buttons.
+ */
 import React from "react";
 
 export default function Contactform() {

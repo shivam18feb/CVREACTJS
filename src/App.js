@@ -1,3 +1,8 @@
+/**
+ * This is a React function that renders a webpage with a navbar, introduction section, education
+ * section, project section, contact form, and footer.
+ * @returns The App component is being returned, which contains the JSX code for the entire web page.
+ */
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
@@ -29,17 +34,15 @@ function App() {
             <h1>Our Projects And Discription ... </h1>
           </div>
           <Project />
-
         </div>
-        
+
         <div className="container" id="adjust">
           <h1>Contact us for Hireing me ..</h1>
-          <Contactform/>
+          <Contactform />
         </div>
         <div>
-          <Footer/>
+          <Footer />
         </div>
-        
       </body>
     </>
   );

@@ -1,3 +1,11 @@
+/**
+ * The Intro function returns a JSX element that displays information about a frontend developer and
+ * includes icons for connecting via phone, email, and messaging.
+ * @returns The function `Intro` is returning a JSX element which contains a `div` element with class
+ * `boxsize` and another `div` element with class `intro`. Inside the `intro` div, there are several
+ * `h1`, `h2`, `h5`, and `p` elements with some text content. Additionally, there is an unordered list
+ * with class `icons` and several
+ */
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone,faMessage,faEnvelope } from '@fortawesome/free-solid-svg-icons';
