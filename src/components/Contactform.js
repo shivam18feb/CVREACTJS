@@ -9,7 +9,7 @@ export default function Contactform() {
         </label>
         <input
           type="email"
-          class="form-control"
+          className="form-control"
           id="exampleFormControlInput1"
           placeholder="name@gmail.com"
         />
@@ -21,8 +21,17 @@ export default function Contactform() {
         <textarea
           className="form-control"
           id="exampleFormControlTextarea1"
+          placeholder="Please write your message here......"
           rows="8"
         ></textarea>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end" id="btn1">
+          <button class="btn btn-primary me-md-2" type="button">
+            Button
+          </button>
+          <button class="btn btn-primary" type="button">
+            Button
+          </button>
+        </div>
       </div>
     </div>
   );

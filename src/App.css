@@ -149,6 +149,11 @@ body {
   padding-right: 10%;
   margin-right: 5%;
 }
+#exampleFormControlTextarea1{
+  text-align: center;
+  font-size: larger;
+  padding-top: 10%;
+}
 #fitfooter {
   display: inline;
   align-items: flex-end;
@@ -175,25 +180,12 @@ body {
   font-size: medium;
   
 }
+#btn1{
+  margin-top: 3%;
+}
 h1{
   text-align: center;
   padding-bottom: 5%;
-}
-.App {
-  padding: 5%;
-  text-align: center;
-  font-size: 16px;
-}
-
-
-
-.fade {
-  animation-name: fade-in;
-  animation-duration: 3s;
-}
-
-.age-stats {
-  opacity: 100;
 }
 
 @keyframes fade-in {
@@ -204,11 +196,6 @@ h1{
     opacity: 100;
   }
 }
-
-.button {
-  margin: 3%;
-}
-
 .control {
   width: 325px;
   margin: 0 auto;
