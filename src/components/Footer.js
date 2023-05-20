@@ -27,26 +27,26 @@ export default function footer() {
 
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 className="text-uppercase mb-4 font-weight-bold">
-                  Products
+                  Skills use
                 </h6>
                 <p>
                   <a className="text-white" href="/">
-                    MDBootstrap
+                    HTML / Css
                   </a>
                 </p>
                 <p>
                   <a className="text-white" href="/">
-                    MDWordPress
+                    Javascripet
                   </a>
                 </p>
                 <p>
                   <a className="text-white" href="/">
-                    BrandFlow
+                    Bootstrap (for responsive)
                   </a>
                 </p>
                 <p>
                   <a className="text-white" href="/">
-                    Bootstrap Angular
+                    React js
                   </a>
                 </p>
               </div>

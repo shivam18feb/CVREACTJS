@@ -1,7 +1,7 @@
 /**
  * The function returns a contact form component in React.
- * @returns A functional component named Contactform that returns a form with an email input field, a
- * message textarea field, and two buttons.
+ * @returns A functional component named Contactform that returns a form with two input fields (email
+ * and message) and two buttons (Send Now and Comment Now).
  */
 import React from "react";
 
@@ -31,10 +31,10 @@ export default function Contactform() {
         ></textarea>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end" id="btn1">
           <button class="btn btn-primary me-md-2" type="button">
-            Button
+            Send Now
           </button>
           <button class="btn btn-primary" type="button">
-            Button
+            Comment Now
           </button>
         </div>
       </div>

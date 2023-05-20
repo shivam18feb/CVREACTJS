@@ -23,7 +23,7 @@ export default function Project() {
             </p>
             <p className="card-text">
               <small className="text-body-secondary">
-                Last updated 3 mins ago
+                Start:-0000000 End:-0000000
               </small>
             </p>
           </div>
