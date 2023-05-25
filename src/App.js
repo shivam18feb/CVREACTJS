@@ -4,6 +4,7 @@
  * @returns The App component is being returned, which contains the JSX code for the entire web page.
  */
 import "./App.css";
+import React from "react";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Education from "./components/Education";
@@ -16,7 +17,7 @@ function App() {
     <>
       <body>
         <div className="navcolor">
-          <Navbar />
+        <Navbar />
         </div>
         <div className="mainpostion">
           <div className="postion">

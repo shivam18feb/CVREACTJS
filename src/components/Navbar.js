@@ -3,9 +3,31 @@
  * @returns A functional component for a navbar in React.
  */
 import React from "react";
+import { Routes , Route , useNavigate} from "react-router-dom";
 
 export default function Navbar() {
+  const navigate = useNavigate();
+
+  const navigateToExperience =() =>{
+    navigate('/experience');
+  };
+  const navigateToProjects =() =>{
+    navigate('/projects');
+  };
+  const navigateToEducation =() =>{
+    navigate('/education');
+  };
+  const navigateToSkills =() =>{
+    navigate('/skills');
+  };
+  const navigateToContact =() =>{
+    navigate('/contact');
+  };
+  const navigateToAbout =() =>{
+    navigate('/about');
+  };
   return (
+   
     <div>
       <nav
         className="navbar navbar-expand-lg navbar-light bg-light"
@@ -34,34 +56,52 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href={navigateToExperience}>
                   Experience
                 </a>
+                <Routes>
+                  <Route path="/experience" element={<experience/>} />
+                </Routes>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href={navigateToProjects}>
                   Projects
                 </a>
+                <Routes>
+                  <Route path="/" element={<projects/>}/>
+                </Routes>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href={navigateToEducation}>
                   Education
                 </a>
+                <Routes>
+                  <Route path="/" element={<education/>}/>
+                </Routes>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href={navigateToSkills}>
                   Skills
                 </a>
+                <Routes>
+                  <Route path="/" element={<skills/>}/>
+                </Routes>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href={navigateToAbout}>
                   About Us
                 </a>
+                <Routes>
+                  <Route path="/" element={<about/>}/>
+                </Routes>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href={navigateToContact}>
                   Contact Us
                 </a>
+                <Routes>
+                  <Route path="/" element={<contact/>}/>
+                </Routes>
               </li>
             </ul>
             <span className="navbar-text">
@@ -71,5 +111,6 @@ export default function Navbar() {
         </div>
       </nav>
     </div>
+
   );
 }

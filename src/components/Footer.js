@@ -57,7 +57,6 @@ export default function footer() {
                 </h6>
                 <p>
                   <i className="fas fa-home mr-3"></i> Praygraj, Uttar Pradesh
-                  US
                 </p>
                 <p>
                   <i className="fas fa-envelope mr-3"></i> Shivam18feb@gmail.com
