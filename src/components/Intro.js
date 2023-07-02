@@ -14,8 +14,8 @@ import { faPhone,faMessage,faEnvelope } from '@fortawesome/free-solid-svg-icons'
 export default function Intro(){
     return(
         <div>
-            <div className="boxsize">
-                <div className="intro">
+            <div className="container">
+                <div className="conatiner">
                 <h1>Helloo Am a Frontend Developer !! </h1>
                 <h2 id="namesize">Shivam Pandey</h2>
                 <h5>(Html/Css/JavaScript/ReactJs/Python/Django/Github)<br/>

@@ -1,6 +1,12 @@
 /* This is a CSS code that defines the styling and layout of a webpage. It sets the background color,
 font family, and size for various elements such as the navbar, main content, education section,
 project section, and footer. It also includes animations such as fade-in and text-shadow effects. */
+
+/* The CSS code `body` is setting the styling and layout for the entire webpage. It sets the margin to
+`auto`, which centers the webpage horizontally within the browser window. It sets the padding to
+`0px`, which removes any padding around the edges of the webpage. It sets the background color to
+`#394867`, which is a dark blue color. It sets the opacity to `0.9`, which makes the webpage
+slightly transparent. It sets the font family to `Comic Sans MS`, which is a font style. */
 body {
   margin: auto;
   padding: 0px;
@@ -8,6 +14,7 @@ body {
   opacity: 0.9;
   font-family: Comic Sans MS;
 }
+/* The CSS code is defining the styling and layout for the navigation bar of the webpage. */
 #fitnav {
   position: relative;
   margin: 0 auto;
@@ -30,6 +37,7 @@ body {
   margin-left: 25%;
   font-size: medium;
 }
+/* This CSS code is defining the styling and layout for various elements on a webpage. */
 .mainpostion {
   display: flex;
   margin-top: 10%;
@@ -88,10 +96,19 @@ body {
   padding-left: 15%;
   padding-right: 15%;
 }
+/* The `.imageedu` CSS class is setting the height and width of an image element to 300 pixels each.
+This is likely used to ensure that all images in the education section of the webpage are uniform in
+size and layout. */
 .imageedu {
   height: 300px;
   width: 300px;
 }
+/* The `.educationbox` CSS class is defining the styling and layout for a container element that holds
+information about education. It sets the display property to `inline-flexbox`, which allows the
+container to be displayed as an inline-level flex container. It also sets the font family, margin,
+background color, opacity, padding, box shadow, and text alignment properties for the container.
+These properties are used to create a visually appealing and organized layout for the education
+section of the webpage. */
 .educationbox {
   display: inline-flexbox;
   font-family: Comic Sans MS;
@@ -101,47 +118,38 @@ body {
   background-color: #eeeeee47;
   opacity: 0.9;
   padding-top: 1%;
-  padding-bottom: 2%;
+  padding-bottom: 5%;
   box-shadow: 0px 0px 2px 5px #fffbec74;
   color: aliceblue;
+  text-align:center;
+  
 }
-.card-body-1 {
-  margin-left: 50%;
-  width: 100%;
-  text-align: center;
-}
-.card-body {
-  margin-top: 10%;
-  margin-left: 50%;
-  width: 100%;
-  text-align: center;
-}
-.card-body-2 {
-  width: 200%;
-  padding-left: 1%;
-  text-align: center;
-  margin-top: 5%;
-  font-size: medium;
-  padding-top: 5%;
-}
-.card-body-3 {
-  width: 200%;
-  padding-left: 1%;
-  text-align: center;
-  margin-top: 5%;
-  font-size: medium;
-  padding-top: 5%;
-}
+
+/* `.projecthead` is a CSS class that is defining the styling and layout for a heading element in the
+project section of the webpage. It sets the text alignment property to center, the margin property
+to 5% from the top, the font family property to Comic Sans MS, and the color property to aliceblue.
+This is used to create a visually appealing and organized layout for the project section of the
+webpage. */
 .projecthead {
   text-align: center;
   margin-top: 5%;
   font-family: Comic Sans MS;
   color: aliceblue;
 }
+/* `.projectbox` is a CSS class that is defining the styling and layout for a container element in the
+project section of the webpage. It sets the `display` property to `flex`, which allows the container
+to be displayed as a flex container. It also sets the `align-items` property to `center`, which
+centers the items within the container vertically. This is used to create a visually appealing and
+organized layout for the project section of the webpage. */
 .projectbox {
   display: flex;
   align-items: center; 
 }
+/* `.card-group` is a CSS class that is defining the styling and layout for a group of card elements in
+the project section of the webpage. It sets the `margin-left` and `margin-right` properties to
+`10%`, which creates a margin on the left and right sides of the card group. It also sets the
+`height` property to `400px`, which sets the height of the card group to `400px`. This is used to
+create a visually appealing and organized layout for the project section of the webpage. */
 .card-group {
   margin-left: 10%;
   margin-right: 10%;
@@ -157,6 +165,10 @@ body {
   font-size: larger;
   padding-top: 10%;
 }
+/* `#fitfooter` is a CSS selector that targets an HTML element with the ID of "fitfooter". The CSS code
+that follows sets the `display` property to `inline` and the `align-items` property to `flex-end`.
+This is used to align the content within the footer section of the webpage to the bottom of the
+container element and display it inline with other elements. */
 #fitfooter {
   display: inline;
   align-items: flex-end;
